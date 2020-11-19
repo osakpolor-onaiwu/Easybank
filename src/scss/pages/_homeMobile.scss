@@ -1,0 +1,122 @@
+@media only screen and (max-width:700px){
+    #sectionA{
+        .Amobile{
+            position: relative;
+            margin-top: 60px;
+            .imgAm{
+                height: 500px;
+                position: absolute;
+                width: 130%;
+                z-index: -1;
+                top: -250px;
+                left: -30px;
+            }
+            .imgBm{
+                height: 300px;
+                width: 90%;
+                left: 15px;
+                position: absolute;
+                top: -85px;
+                z-index: 0;
+            }
+            height: 200px;
+        }
+
+        .A1{
+            padding: 0 10% 0 10%;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 35px;
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+
+            button{
+                @include but;
+                align-self: center;
+             }
+        }
+
+        .A2{
+            display: none;
+        }
+       
+        
+    }
+    
+    #sectionB{
+        padding: 0% 10% 4% 10%;
+        background-color: $LightGrayBlue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3{
+            font-size: 35px;
+            text-align: center;
+        }
+        .B1{
+            padding: 4% 0 3% 1%;
+            width: 100%;
+            p{
+                text-align: center;
+            }
+        }
+        .B2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            div{
+                flex-basis: 100%;
+                margin: 0 0 2% 0%;
+            }
+            img{
+                width:30%;
+                margin-left: 35%;
+                margin-right: 35%;
+            }
+            h4,p{
+                text-align: center;
+            }
+        }
+    }
+    
+    #sectionC{
+        padding: 0% 10% 4% 10%;
+        .C1{
+            padding: 4% 0 2% 1%; 
+            width: 100%;
+            p{
+                text-align: center;
+            }
+
+            h3{
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+
+
+        .C2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            div{
+                flex-basis: 100%;
+                margin-bottom: 5%;
+                background:white;
+                box-shadow: 0px 0px 5px rgb(209, 198, 198);
+                p,h4{
+                    padding-right: 7%;
+                    padding-left: 5%;
+                }
+            }
+            img{
+                width: 100%;
+                height: 200px;
+            }
+        }
+    }
+}

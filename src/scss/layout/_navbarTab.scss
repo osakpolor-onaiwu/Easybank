@@ -1,0 +1,37 @@
+@media only screen and (min-width:701px) and (max-width:1300px){
+    nav{
+        background-color: white;
+        padding: 5px 11% 5px 7%;
+        position: relative;
+        z-index: 1;
+        button{
+            @include but
+         }
+    }
+    
+    nav{
+    #mobile{
+        display: none;
+    }
+    #Desktop{
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .navli{
+            margin-right: auto;
+            text-decoration: none;
+    
+        }
+        li{
+            padding:0px 12px;
+            .navli{
+                color: black;
+            }
+        }
+        .but{
+            margin-left: auto;
+        }
+      }
+    }
+}
