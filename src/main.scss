@@ -4,18 +4,21 @@
 @import './scss/pages/homeDesktop';
 @import './scss/pages/homeTab';
 @import './scss/pages/homeMobile';
+@import './scss/pages/homesmalltab';
 @import './scss/layout/navbar';
 @import './scss/layout/navbarTab';
 @import './scss/layout/navbarMobile';
+@import './scss/layout/navbarsmallTab';
 @import './scss/layout/footer';
 @import './scss/layout/footerTab';
 @import './scss/layout/footerMobile';
 
-body{
+html,body{
 box-sizing: border-box;
 margin: 0%;
 height: 100%;
 background: $LightGray;
 overflow-x: hidden;
+position: relative;
 font-family: 'Public Sans', sans-serif;
 }

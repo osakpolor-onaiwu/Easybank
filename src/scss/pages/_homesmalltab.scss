@@ -1,6 +1,4 @@
-
-// for large Tabs and small desktops
-@media only screen and (min-width:860px) and (max-width:1300px){
+@media only screen and (min-width:701px) and (max-width:860px){
     #sectionA{
         padding: 0% 0% 0% 10%;
         margin: 0px;
@@ -15,8 +13,8 @@
         }
         .A1{
             h1{
-                padding: 4% 14% 0% 0%;
-                font-size:44px ;
+                padding: 15% 8% 0% 0%;
+                font-size:38px ;
                 margin-bottom: 0;
             }
             p{
@@ -48,7 +46,7 @@
     }
     
     #sectionB{
-        padding: 0% 10% 4% 10%;
+        padding: 8% 10% 4% 10%;
         background-color: $LightGrayBlue;
         h3{
             font-size: 35px;

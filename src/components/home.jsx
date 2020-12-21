@@ -4,21 +4,25 @@ import Online from "../images/icon-online.svg";
 import budget from "../images/icon-budgeting.svg";
 import Onboard from "../images/icon-onboarding.svg";
 import api from "../images/icon-api.svg";
-import currency from '../images/image-currency.jpg'
-import resturant from '../images/image-restaurant.jpg'
-import plane from '../images/image-plane.jpg'
-import confetti from '../images/image-confetti.jpg'
-import Devices from '../images/image-mockups.png'
-
+import currency from "../images/image-currency.jpg";
+import resturant from "../images/image-restaurant.jpg";
+import plane from "../images/image-plane.jpg";
+import confetti from "../images/image-confetti.jpg";
+import Devices from "../images/image-mockups.png";
 
 export default class Home extends Component {
     render() {
         return (
             <main>
+                {/* top section */}
                 <section id="sectionA">
                     <div className="Amobile">
-                        <img className='imgAm' src={DesktopInt} alt="destopintro" />
-                        <img className='imgBm' src={Devices} alt="devices" />
+                        <img
+                            className="imgAm"
+                            src={DesktopInt}
+                            alt="destopintro"
+                        />
+                        <img className="imgBm" src={Devices} alt="devices" />
                     </div>
                     <div className="A1">
                         <h1> Next generation digital banking</h1>
@@ -32,8 +36,12 @@ export default class Home extends Component {
                         </button>
                     </div>
                     <div className="A2">
-                        <img className='imgA' src={DesktopInt} alt="destopintro" />
-                        <img className='imgB' src={Devices} alt="devices" />
+                        <img
+                            className="imgA"
+                            src={DesktopInt}
+                            alt="destopintro"
+                        />
+                        <img className="imgB" src={Devices} alt="devices" />
                     </div>
                 </section>
 

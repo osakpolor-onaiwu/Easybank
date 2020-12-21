@@ -1,13 +1,9 @@
-// for Phones
-
-@media only screen and (max-width:701px){
-    main{
-        position: relative;
-    }
+@media only screen and (min-width:701px) and (max-width:860px){
+   
     nav{
         background-color: white;
         padding: 5px 0% 5px 3%;
-        // position: fixed;
+        position: sticky;
         top: 0px;
         z-index: 1;
         width: 100%;
@@ -27,7 +23,7 @@
         }
     }
 
-   
+  
 
     #mobilelinks{
         background: white;
@@ -36,7 +32,8 @@
         border-radius: 5px;
         width: 90%;
         z-index: 1;
-        top: 40%;
+        left: 0%;
+        top: 0;
         padding: 4% 0;
         list-style: none;
         display: flex;
@@ -47,10 +44,10 @@
 
         @keyframes navbar {
             0%{
-                transform:translateY(-15px)
+                transform:translateX(-15px)
             }
             100%{
-                transform: translateY(0px);
+                transform: translateX(0px);
             }
         }
         .mobli{
